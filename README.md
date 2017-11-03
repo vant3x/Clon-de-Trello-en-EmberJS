@@ -1,4 +1,6 @@
-# trello
+# Trello clone
+![image](https://user-images.githubusercontent.com/11634391/32365012-018b1b36-c046-11e7-8693-4190b18c9607.png)
+
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
