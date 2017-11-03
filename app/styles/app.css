@@ -1,0 +1,78 @@
+body{
+    background: #0668b8;
+}
+.title {
+    font-family: 'Lobster', cursive;
+    color:#fff;
+    font-size: 38px;
+}
+.titles_list{
+    text-align: center;
+    margin:20px;
+    color:#0a7ff9;
+    font-size: 26px;
+    margin: 20px 0px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.list h2{
+    height: 1.2em;
+    font-size: 18px;
+    margin:5px  0;
+}
+
+.list .todos{
+    height: 80vh;
+    /*height: 90vh;*/
+    overflow-y:hidden ;
+    /*background: #000;*/
+}
+
+.lists-container{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.infinite-width{
+    white-space: nowrap;
+}
+.lists > div{
+    background: #7f9fb6;
+    /*background: #6fa0c4;*/
+    /*background:rgba(84, 140, 177, 0.8);*/
+    display: inline-block;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    vertical-align: top;
+    margin-right: 1em;
+    padding:10px;
+    /*box-shadow: 1px 1px 25px 0.5px #000;*/
+}
+
+.add{
+    margin: 5px 4px;
+}
+.red{
+    color:#fc3131
+}
+.red:hover{
+    color:#e91a1a;
+}
+.new-list input[type="submit"]{
+    margin-top: 0.8em;
+}
+.new-list{
+    padding: 1em;
+}
+.card{
+
+    padding: 10px;
+    background: #fff;
+    border-bottom:1px solid rgba(0,0,0,0.5);
+    margin-top: 8px;
+    border-radius: 3px;
+}
+.form-hide{
+    display: none;
+}
